@@ -1,0 +1,125 @@
+version: "2.0"
+
+nlu:
+- lookup: location
+  examples: |
+    - Lào Cai
+    - Điện Biên
+    - Yên Bái
+    - Hoà Bình
+    - Thái Nguyên
+    - Lạng Sơn
+    - Quảng Ninh
+    - Bắc Giang
+    - Phú Thọ
+    - Vĩnh Phúc
+    - Bắc Ninh
+    - Hải Dương
+    - Hưng Yên
+    - Thái Bình
+    - Hà Nam
+    - Nam Định
+    - Ninh Bình
+    - Thanh Hóa
+    - Nghệ An
+    - Hà Tĩnh
+    - Quảng Bình
+    - Quảng Trị
+    - Thừa Thiên Huế
+    - Huế
+    - Quảng Nam
+    - Quảng Ngãi
+    - Bình Định
+    - Phú Yên
+    - Khánh Hòa
+    - Ninh Thuận
+    - Bình Thuận
+    - Kon Tum
+    - Gia Lai
+    - Đắk Lắk
+    - Đắk Nông
+    - Lâm Đồng
+    - Bình Phước
+    - Tây Ninh
+    - Bình Dương
+    - Đồng Nai
+    - Bà Rịa - Vũng Tàu
+    - Bà Rịa Vũng Tàu
+    - Long An
+    - Tiền Giang
+    - Bến Tre
+    - Trà Vinh
+    - Vĩnh Long
+    - Đồng Tháp
+    - An Giang
+    - Kiên Giang
+    - Hậu Giang
+    - Sóc Trăng
+    - Bạc Liêu
+    - Cà Mau
+    - Tuyên Quang
+    - Cao Bằng
+    - Hà Giang
+    - Bắc Kạn
+    - Hải Phòng
+    - Đà Nẵng
+    - Hồ Chí Minh
+    - Cần Thơ
+    - Lai Châu
+    - Sơn La
+    - Hòa Bình
+    - Sông Công
+    - Lạng Sơn
+    - Hạ Long
+    - Móng Cái
+    - Cẩm Phả
+    - Uông Bí
+    - Việt Trì
+    - Vĩnh Yên
+    - Phúc Yên
+    - Chí Linh
+    - Phủ Lý
+    - Nam Định
+    - Tam Điệp
+    - Sầm Sơn
+    - Vinh
+    - Đồng Hới
+    - Đông Hà
+    - Tam Kỳ
+    - Hội An
+    - Quy Nhơn
+    - Tuy Hoà
+    - Nha Trang
+    - Cam Ranh
+    - Phan Rang-Tháp Chàm
+    - Phan Rang Tháp Chàm
+    - Phan Thiết
+    - Pleiku
+    - Buôn Ma Thuột
+    - Gia Nghĩa
+    - Đà Lạt
+    - Bảo Lộc
+    - Đồng Xoài
+    - Thủ Dầu Một
+    - Dĩ An
+    - Thuận An
+    - Biên Hòa
+    - Long Khánh
+    - Vũng Tàu
+    - Bà Rịa
+    - Thủ Đức
+    - Tân An
+    - Mỹ Tho
+    - Cao Lãnh
+    - Sa Đéc
+    - Hồng Ngự
+    - Long Xuyên
+    - Châu Đốc
+    - Rạch Giá
+    - Hà Tiên
+    - Phú Quốc
+    - Vị Thanh
+    - Ngã Bảy
+    - Bạc Liêu
+    - Điện Biên Phủ
+    - Hà Nội

@@ -1,0 +1,51 @@
+version: "2.0"
+
+nlu:
+- intent: yes
+  examples: |
+    - Có
+    - Vâng
+    - Tất nhiên rồi
+    - Ok
+    - Okê
+    - Tôi đồng ý
+    - Đồng ý
+    - Tôi hoàn toàn đồng ý
+    - Chắc chắn rồi
+    - Được
+    - Được thôi
+    - Tôi muốn
+    - Tôi rất muốn
+    - Tôi cực kỳ muốn
+    - Dạ
+- intent: no
+  examples: |
+    - Không
+    - Tôi không muốn
+    - Tôi không đồng ý
+    - Xin lỗi nhưng tôi không muốn
+    - Tất nhiên là không
+    - Chắc chắn không
+    - Hoàn toàn không
+    - Tôi hoàn toàn không muốn
+    - Tôi chẳng muốn
+    - Đéo
+    - Không muốn
+    - Không đồng ý
+- intent: help
+  examples: |
+    - Tôi cần giúp đỡ
+    - Trợ giúp
+    - help
+    - Tôi cần bạn trợ giúp
+    - Xin hãy giúp tôi
+    - Cứu tôi
+    - Giúp đỡ tôi
+    - Tôi cần hỗ trợ
+    - Hỗ trợ
+    - Giúp
+    - Giúp tôi
+    - Hãy giúp tôi
+    - Xin hãy cứu tôi
+    - Tôi cần sự trợ giúp
+    - Sự trợ giúp
