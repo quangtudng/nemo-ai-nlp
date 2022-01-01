@@ -3,7 +3,6 @@ version: "2.0"
 intents:
   - yes
   - no
-  - help
   - asking_ai_info
 entities:
   - location
