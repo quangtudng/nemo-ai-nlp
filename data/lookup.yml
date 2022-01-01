@@ -3,6 +3,7 @@ version: "2.0"
 nlu:
 - lookup: location
   examples: |
+    - Việt Nam
     - Lào Cai
     - Điện Biên
     - Yên Bái

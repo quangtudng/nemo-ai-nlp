@@ -24,6 +24,7 @@ pipeline:
     analyzer: "char_wb"
     min_ngram: 1
     max_ngram: 4
+    lowercase: False
 
   # DIET is a multi-task transformer architecture that handles both intent classification and entity recognition together.
   - name: DIETClassifier
