@@ -1,34 +1,17 @@
 version: "2.0"
 
 nlu:
-- intent: yes
+- intent: skip
   examples: |
-    - Có
-    - Vâng
-    - Tất nhiên rồi
-    - Ok
-    - Okê
-    - Tôi đồng ý
-    - Đồng ý
-    - Tôi hoàn toàn đồng ý
-    - Chắc chắn rồi
-    - Được
-    - Được thôi
-    - Tôi muốn
-    - Tôi rất muốn
-    - Tôi cực kỳ muốn
-    - Dạ
-- intent: no
+    - Bỏ qua
+    - Bỏ qua cho tôi
+    - Tôi muốn bỏ qua
+    - Tôi không muốn làm điều này
+    - Bỏ qua tại thời điểm hiện tại
+- intent: help
   examples: |
-    - Không
-    - Tôi không muốn
-    - Tôi không đồng ý
-    - Xin lỗi nhưng tôi không muốn
-    - Tất nhiên là không
-    - Chắc chắn không
-    - Hoàn toàn không
-    - Tôi hoàn toàn không muốn
-    - Tôi chẳng muốn
-    - Đéo
-    - Không muốn
-    - Không đồng ý
+    - Trợ giúp
+    - Tôi cần trợ giúp
+    - Hãy hỗ trợ tôi
+    - Hỗ trợ
+    - Xin hãy giúp đỡ tôi
