@@ -19,6 +19,8 @@ pipeline:
     case_sensitive: False
 
   # Creates bag-of-words representation of user messages, intents, and responses.
+  # bag-of-words: {"word": "how many times this word appear in a sentence"}
+  # ngram: how many words next to each other the featurizer will looking for
   - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
     analyzer: "char_wb"
@@ -31,7 +33,7 @@ pipeline:
     entity_recognition: False
     epochs: 100
     constrain_similarities: True
-  
+
   - name: CRFEntityExtractor
 policies:
 # # No configuration for policies was provided. The following default policies were used to train your model.
